@@ -1,0 +1,38 @@
+.Positivus_Logo {
+    width: 219;
+    height: 36px;
+}
+
+.Header_Container {
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.Header_Side {
+    gap: 40px;
+    width: 60%;
+}
+
+.Header_Container, .Header_Side, .Header_List {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.Header_List li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 1.4vw;
+}
+
+.Header_List {
+    gap: 30px;
+}
+
+.Header_Button {
+    background-color: var(--tertiary-color);
+    border-radius: 14px;
+    min-width: 200px;
+    height: 50px;
+    cursor: pointer;
+}

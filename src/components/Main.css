@@ -1,0 +1,40 @@
+.Main_Container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.Main-Right-Side, .Main-Left-Side {
+    width: 40%;
+}
+
+.Main-Right-Side h1 {
+    font-size: 60px;
+}
+
+.Main-Right-Side p {
+    font-size: 20px;
+}
+
+.Illustration_Image {
+    width: 40vw;
+}
+
+.Service_Types {
+    display: flex;
+    align-items: center;
+}
+
+.Services {
+    background-color: var(--secondary-color);
+    width: 10.5vw;
+    font-size: 2.5vw;
+    padding-left: 5px;
+    border-radius: 7px;
+    margin: 0 4vw 0 8vw;
+}
+
+.Services_Text {
+    font-size: 1.25vw;
+    width: 45%;
+}
